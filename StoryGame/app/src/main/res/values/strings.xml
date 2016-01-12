@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">StoryGame</string>
 
-    <string name="home_page">welcome to StoryGame!</string>
+    <string name="home_page"> welcome to StoryGame! </string>
 
     <string name="action_settings">Settings</string>
 </resources>
