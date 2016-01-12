@@ -7,17 +7,24 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    android.widget.Button start_new_game, join_game;
+    android.widget.TextView txt1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
-        final Button start_new_game = (Button) findViewById(R.id.button);
-        final Button join_game = (Button) findViewById(R.id.button2);
+        txt1 = (TextView) findViewById(R.id.textView);
+
+        start_new_game = (Button) findViewById(R.id.button);
+        join_game = (Button) findViewById(R.id.button2);
+
 
         start_new_game.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
