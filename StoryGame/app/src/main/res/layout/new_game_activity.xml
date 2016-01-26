@@ -13,7 +13,7 @@
         android:layout_weight="0.47"
         android:hint="Start your story!"
         android:gravity="start"
-        android:textSize="">
+        android:textSize="20dp">
 
     </EditText>
 
